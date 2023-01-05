@@ -20,79 +20,40 @@ Series:
 
 //my solution
 
-
 let v1 = 50,
-2
     v2 = 100,
-3
     v3 = 150,
-4
     v4 = 200,
-5
     v5 = 2,
-6
     v6 = 250;
-7
-​
-8
+
 function equal1(){
-9
   let a = v1,   
-10
       b = v1;   
-11
   return a + b;
-12
 }
-13
-​
-14
+
 //Please refer to the example above to complete the following functions
-15
 function equal2(){
-16
-  let a = v4 , //set number value to a
-17
+  let a =v4  , //set number value to a
       b = v2 ; //set number value to b
-18
   return a - b;
-19
 }
-20
-​
-21
+
 function equal3(){
-22
-  let a = v5 , //set number value to a
-23
+  let a = v5  , //set number value to a
       b = v1 ; //set number value to b
-24
   return a * b;
-25
 }
-26
-​
-27
+
 function equal4(){
-28
   let a = v4 , //set number value to a
-29
-      b = v5 ; //set number value to b
-30
+      b =  v5 ; //set number value to b
   return a / b;
-31
 }
-32
-​
-33
-​
-34
+
 function equal5(){
-35
-  let a = v4 , //set number value to a
-36
-      b = v5 ; //set number value to b
-37
-  return a / b;
-38
+  let a = v2 , //set number value to a
+      b =  v4; //set number value to b
+  return a % b;
 }
