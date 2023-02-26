@@ -13,5 +13,5 @@ the solution */
 function getASCII(c){
     // ...
     
-    return c.charCodeAt(c);
+    return c.charCodeAt(0);
   }
