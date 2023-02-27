@@ -8,9 +8,4 @@ Write function parseF which takes an input and returns a number or null if conve
  the solution */
 
 
- function parseF(s) {
-
-
-    const num = Number(s);
-      return isNaN(num) ? null : num;
-    }
+ const parseF = s => isNaN(parseFloat(s)) ? null : parseFloat(s);
